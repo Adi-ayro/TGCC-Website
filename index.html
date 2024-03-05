@@ -35,6 +35,23 @@
     <img src="img/sun_rays.png" class="sun-rays">
     <img src="img/black_shadow.png" class="black-shadow">
     <img src="img/fog_1.png" class="parralax fog-1" data-speedx = "0.12" data-speedy = "0.1">
+    <div class="rotate">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
+        <defs>
+            <path id="circlePath" d="M 50, 50 m -40, 0 
+            a 40,40 0 0,1 80,0 
+            a 40,40 0 0,1 -80,0 "/>
+        </defs>
+        <circle cx="50" cy="50" r="70" fill="none"/>
+        <g>
+            <use xlink:href="#circlePath" fill="none"/>
+            <text fill="#fff" font-size="3.1" color="white">
+                <textPath xlink:href="#circlePath">Team Trees (JIIT Chapter) Team Trees (JIIT Chapter) Team Trees (JIIT Chapter) Team Trees (JIIT Chapter) Team Trees (JIIT Chapter) Team Trees (JIIT Chapter)</textPath>
+                <animateTransform attributeName="transform" attributeType="XML" type="rotate"  from="0 50 50"   to="360 50 50"   dur="20s" repeatCount="indefinite"/>
+            </text>
+        </g>
+    </svg>    
+    </div>
   </main>
 
   <div class="about">
